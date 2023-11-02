@@ -1,0 +1,9 @@
+    <div x-show="!loading" class="relative overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+                            <img @load="loading = false" class="object-cover w-full h-40" src="{{ $conference->image }}" alt="avatar">
+                            
+                            <!-- Overlay with text always visible -->
+                            <div class="absolute inset-0 p-3 flex flex-col justify-end bg-opacity-75 bg-gray-900 text-white">
+                                <a href="#" class="block text-xl font-bold">{{ $conference->name }}</a>
+                                <span class="text-sm">{{ $conference->theme }}</span>
+                            </div>
+                        </div>
