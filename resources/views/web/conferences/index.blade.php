@@ -4,9 +4,9 @@
             <h2 class="text-3xl font-bold text-gray-800 dark:text-white">Conferences</h2>
             
             <div class="mt-2 mb-10">
-                <span class="inline-block w-40 h-1 bg-amber-500 rounded-full"></span>
-                <span class="inline-block w-3 h-1 ml-1 bg-amber-500 rounded-full"></span>
-                <span class="inline-block w-1 h-1 ml-1 bg-amber-500 rounded-full"></span>
+                <span class="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
+                <span class="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
+                <span class="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
             </div>
             <div class="w-full">
                 <div x-data="{ loading: true }">

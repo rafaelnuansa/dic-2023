@@ -1,4 +1,4 @@
-<nav x-data="{ isOpen: false }" class="sticky top-0 z-50 bg-white dark:bg-gray-900 border-t-4 border-amber-500">
+<nav x-data="{ isOpen: false }" class="sticky top-0 z-50 bg-white dark:bg-gray-900 border-t-4 border-blue-500">
     
     <div class="w-full container bg-white px-16 py-4 mx-auto md:flex md:justify-between md:items-center">
         <div class="flex items-center justify-between">
@@ -22,10 +22,10 @@
         <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
         <div x-cloak :class="[isOpen ? 'translate-x-0 opacity-100 ' : 'opacity-0 -translate-x-full']" class="absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-white dark:bg-gray-800 md:mt-0 md:p-0 md:top-0 md:relative md:bg-transparent md:w-auto md:opacity-100 md:translate-x-0 md:flex md:items-center">
             <div class="flex flex-col md:flex-row md:mx-6">
-                <a class="my-2 text-gray-700 transition-colors font-bold duration-300 transform dark:text-gray-200 hover:text-amber-500 dark:hover:text-amber-400 md:mx-4 md:my-0" href="{{ route('web.home') }}">Home</a>
-                <a class="my-2 text-gray-700 transition-colors font-bold duration-300 transform dark:text-gray-200 hover:text-amber-500 dark:hover:text-amber-400 md:mx-4 md:my-0" href="{{ route('web.conferences') }}">Conferences</a>
-                <a target="_blank" class="my-2 text-gray-700 transition-colors font-bold duration-300 transform dark:text-gray-200 hover:text-amber-500 dark:hover:text-amber-400 md:mx-4 md:my-0" href="https://drive.google.com/file/d/1qVxoiovq0pewL4NB5pqm3e891xM1FPyF/view?usp=sharing">Download Flyer</a>
-                <a class="my-2 text-gray-700 transition-colors font-bold duration-300 transform dark:text-gray-200 hover:text-amber-500 dark:hover:text-amber-400 md:mx-4 md:my-0" href="#">News</a>
+                <a class="my-2 text-gray-700 transition-colors font-bold duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0" href="{{ route('web.home') }}">Home</a>
+                <a class="my-2 text-gray-700 transition-colors font-bold duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0" href="{{ route('web.conferences') }}">Conferences</a>
+                <a target="_blank" class="my-2 text-gray-700 transition-colors font-bold duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0" target="_blank" href="https://drive.google.com/file/d/1GEC_jThJ6vfU_LN4QUyQtjOp5-sISM73/view?usp=sharing">Download Flyer</a>
+                <a class="my-2 text-gray-700 transition-colors font-bold duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0" href="#">News</a>
             </div>
 
             <div class="flex justify-center md:block">

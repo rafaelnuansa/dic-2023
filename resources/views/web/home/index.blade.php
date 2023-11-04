@@ -6,9 +6,9 @@
 
             <div>
                 <div class="mt-2 mb-10">
-                    <span class="inline-block w-40 h-1 bg-amber-500 rounded-full"></span>
-                    <span class="inline-block w-3 h-1 ml-1 bg-amber-500 rounded-full"></span>
-                    <span class="inline-block w-1 h-1 ml-1 bg-amber-500 rounded-full"></span>
+                    <span class="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
+                    <span class="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
+                    <span class="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
                 </div>
             </div>
             <div class="w-full">
@@ -44,9 +44,9 @@
 
             <div>
                 <div class="mt-2 mb-10">
-                    <span class="inline-block w-40 h-1 bg-amber-500 rounded-full"></span>
-                    <span class="inline-block w-3 h-1 ml-1 bg-amber-500 rounded-full"></span>
-                    <span class="inline-block w-1 h-1 ml-1 bg-amber-500 rounded-full"></span>
+                    <span class="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
+                    <span class="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
+                    <span class="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
                 </div>
             </div>
             <p class="text-lg text-gray-400 mb-12">Achieving Sustainability Sourcing Amind the Challenge of Climate
@@ -58,7 +58,7 @@
             <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
                 <!-- Sosial Series -->
                 <div
-                    class="p-4 bg-gradient-to-r from-amber-600 to-amber-400 rounded-lg transform hover:scale-110 hover:rotate-3 transition-transform duration-300">
+                    class="p-4 bg-gradient-to-r from-blue-600 to-blue-400 rounded-lg transform hover:scale-110 hover:rotate-3 transition-transform duration-300">
                     <h2 class="text-2xl font-bold mb-2">Social Series</h2>
                     <ul class="list-none text-sm">
                         <li>Anti-Poverty</li>
@@ -71,7 +71,7 @@
 
                 <!-- Environment Series -->
                 <div
-                    class="p-4 bg-gradient-to-r from-amber-600 to-amber-400 rounded-lg transform hover:scale-110 hover:rotate-3 transition-transform duration-300">
+                    class="p-4 bg-gradient-to-r from-blue-600 to-blue-400 rounded-lg transform hover:scale-110 hover:rotate-3 transition-transform duration-300">
                     <h2 class="text-2xl font-bold mb-2">Environment Series</h2>
                     <ul class="list-none text-sm">
                         <li>Clean Water and Sanitation</li>
@@ -85,7 +85,7 @@
 
                 <!-- Economy Series -->
                 <div
-                    class="p-4 bg-gradient-to-r from-amber-600 to-amber-400 rounded-lg transform hover:scale-110 hover:rotate-3 transition-transform duration-300">
+                    class="p-4 bg-gradient-to-r from-blue-600 to-blue-400 rounded-lg transform hover:scale-110 hover:rotate-3 transition-transform duration-300">
                     <h2 class="text-2xl font-bold mb-2">Economy Series</h2>
                     <ul class="list-none text-sm">
                         <li>Affordable and Clean Energy</li>
@@ -98,7 +98,7 @@
 
                 <!-- Law and Governance -->
                 <div
-                    class="p-4 bg-gradient-to-r from-amber-600 to-amber-400 rounded-lg transform hover:scale-110 hover:rotate-3 transition-transform duration-300">
+                    class="p-4 bg-gradient-to-r from-blue-600 to-blue-400 rounded-lg transform hover:scale-110 hover:rotate-3 transition-transform duration-300">
                     <h2 class="text-2xl font-bold mb-2">Law and Governance</h2>
                     <ul class="list-none text-sm">
                         <li>Peace, Justice, and Institutions</li>
@@ -113,9 +113,9 @@
             <h2 class="text-3xl font-bold text-gray-800 dark:text-white mb-6">Keynote Speakers</h2>
             <div>
                 <div class="mt-2">
-                    <span class="inline-block w-40 h-1 bg-amber-500 rounded-full"></span>
-                    <span class="inline-block w-3 h-1 ml-1 bg-amber-500 rounded-full"></span>
-                    <span class="inline-block w-1 h-1 ml-1 bg-amber-500 rounded-full"></span>
+                    <span class="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
+                    <span class="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
+                    <span class="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
                 </div>
             </div>
             <div class="w-full">
@@ -127,7 +127,7 @@
                             <div
                                 class="w-full max-w-md px-4 py-5 mt-16 bg-white rounded-lg shadow-lg dark:bg-gray-800 transform hover:scale-110 hover:rotate-3 transition-transform duration-300">
                                 <div class="flex justify-center -mt-16 md:justify-end">
-                                    <img class="object-cover w-20 h-20 border-2 border-amber-500 rounded-full dark:border-amber-400"
+                                    <img class="object-cover w-20 h-20 border-2 border-blue-500 rounded-full dark:border-blue-400"
                                         alt="{{ $keynote->name }}" src="{{ $keynote->image }}">
                                 </div>
 
@@ -159,9 +159,9 @@
 
                     <div>
                         <div class="mt-2 mb-10">
-                            <span class="inline-block w-40 h-1 bg-amber-500 rounded-full"></span>
-                            <span class="inline-block w-3 h-1 ml-1 bg-amber-500 rounded-full"></span>
-                            <span class="inline-block w-1 h-1 ml-1 bg-amber-500 rounded-full"></span>
+                            <span class="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
+                            <span class="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
+                            <span class="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
                         </div>
                     </div>
                     <p class="mt-4 text-gray-600 dark:text-gray-300">The Benefits:
@@ -185,9 +185,9 @@
 
             <div>
                 <div class="mt-2 mb-10">
-                    <span class="inline-block w-40 h-1 bg-amber-500 rounded-full"></span>
-                    <span class="inline-block w-3 h-1 ml-1 bg-amber-500 rounded-full"></span>
-                    <span class="inline-block w-1 h-1 ml-1 bg-amber-500 rounded-full"></span>
+                    <span class="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
+                    <span class="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
+                    <span class="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
                 </div>
             </div>
             <p class="text-lg mb-12 text-gray-600">We would like to express our gratitude to our sponsors and joint

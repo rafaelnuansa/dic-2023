@@ -22,9 +22,9 @@
                                     {{ $conference->name }}</h1>
 
                                 <div class="mt-2">
-                                    <span class="inline-block w-40 h-1 bg-amber-500 rounded-full"></span>
-                                    <span class="inline-block w-3 h-1 ml-1 bg-amber-500 rounded-full"></span>
-                                    <span class="inline-block w-1 h-1 ml-1 bg-amber-500 rounded-full"></span>
+                                    <span class="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
+                                    <span class="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
+                                    <span class="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
                                 </div>
                             </div>
 
@@ -46,8 +46,13 @@
                                     <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">Important
                                         Dates</h1>
 
+                                        <p class="mt-3 text-gray-500 dark:text-gray-300">
+                                        
+                                       <b>Registration & Abstract Submission Deadline : 20 November 2023</b><br>
+                                       <b>Full Paper Proceeding Submission Deadline : 20 November 2023</b><br>
+                                       <b>Conference Day (Presentation) : 13 December 2023</b>
+                                    </p>
                                     <p class="mt-3 text-gray-500 dark:text-gray-300">
-                                        {{ \Carbon\Carbon::parse($conference->start_date)->format('d M Y') }} 
 
                                     </p>
                                 </div>
@@ -60,7 +65,8 @@
                                     </h1>
 
                                     <p class=" text-gray-500 dark:text-gray-300">
-                                        {{ $conference->location }}
+                                        {{ $conference->location }} - 
+                                    <b>Available Virtual Conference / Online</b>
                                     </p>
                                 </div>
                             </div>
@@ -152,9 +158,9 @@
                                Keynote Speakers</h1>
 
                                 <div class="mt-2">
-                                    <span class="inline-block w-40 h-1 bg-amber-500 rounded-full"></span>
-                                    <span class="inline-block w-3 h-1 ml-1 bg-amber-500 rounded-full"></span>
-                                    <span class="inline-block w-1 h-1 ml-1 bg-amber-500 rounded-full"></span>
+                                    <span class="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
+                                    <span class="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
+                                    <span class="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
                                 </div>
                             </div>
                             @if ($conference->keynotes->count() > 0)
@@ -164,7 +170,7 @@
                                 @foreach ($conference->keynotes as $keynote)
                                 <div class="w-full max-w-md px-4 py-5 mt-16 bg-white rounded-lg shadow-lg dark:bg-gray-800 transform hover:scale-110 hover:rotate-3 transition-transform duration-300">
                                     <div class="flex justify-center -mt-16 md:justify-end">
-                                        <img class="object-cover w-20 h-20 border-2 border-amber-500 rounded-full dark:border-amber-400" alt="{{ $keynote->name }}" src="{{ $keynote->image }}">
+                                        <img class="object-cover w-20 h-20 border-2 border-blue-500 rounded-full dark:border-blue-400" alt="{{ $keynote->name }}" src="{{ $keynote->image }}">
                                     </div>
                                 
                                     <h2 class="mt-3 text-1xl font-bold text-gray-800 dark:text-white md:mt-0">{{ $keynote->name }}</h2>

@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [App\Http\Controllers\Web\HomeController::class, 'index'])->name('web.home');
 Route::get('conferences', [App\Http\Controllers\Web\ConferenceController::class, 'index'])->name('web.conferences');
 Route::get('conferences/{conference}', [App\Http\Controllers\Web\ConferenceController::class, 'show'])->name('web.conferences.show');
-
+Route::get()
 
 
 Route::get('logout', [App\Http\Controllers\Auth\AuthenticatedSessionController::class, 'destroy'])->name('logout');
