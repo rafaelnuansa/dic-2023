@@ -16,8 +16,14 @@ class ConferenceController extends Controller
         return view('web.conferences.index', compact('conferences'));
     } 
 
-    public function show($shorname) {
-        $conference = Conference::where('shortname', $shorname)->firstOrFail();
+    public function show($shortname) {
+        $conference = Conference::where('shortname', $shortname)->firstOrFail();
+        
+        return view('web.conferences.show', compact('conference'));
+    }
+    
+    public function payment($shortname) {
+        $conference = Conference::where('shortname', $shortname)->firstOrFail();
         
         return view('web.conferences.show', compact('conference'));
     }

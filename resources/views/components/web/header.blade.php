@@ -25,7 +25,9 @@
                 <a class="my-2 text-gray-700 transition-colors font-bold duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0" href="{{ route('web.home') }}">Home</a>
                 <a class="my-2 text-gray-700 transition-colors font-bold duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0" href="{{ route('web.conferences') }}">Conferences</a>
                 <a target="_blank" class="my-2 text-gray-700 transition-colors font-bold duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0" target="_blank" href="https://drive.google.com/file/d/1GEC_jThJ6vfU_LN4QUyQtjOp5-sISM73/view?usp=sharing">Download Flyer</a>
-                <a class="my-2 text-gray-700 transition-colors font-bold duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0" href="#">News</a>
+
+                <a class="my-2 text-gray-700 transition-colors font-bold duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0" href="#">Registration and Payment</a>
+         
             </div>
 
             <div class="flex justify-center md:block">
@@ -34,5 +36,7 @@
                 </a>
             </div>
         </div>
+
+
     </div>
 </nav>
