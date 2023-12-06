@@ -4,7 +4,7 @@
         <!-- Page Heading -->
         <header class="bg-white shadow">
             <div class="w-full mx-auto py-6 px-4 sm:px-6 lg:px-8">
-                <h1 class="text-3xl font-semibold text-gray-900">{{ $conference->name }}</h1>
+                <h1 class="text-3xl font-semibold text-gray-900">Registration and Payment</h1>
             </div>
         </header>
     </x-slot>
@@ -19,7 +19,7 @@
                         <div class="w-full ">
                             <div>
                                 <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">
-                                    {{ $conference->name }}</h1>
+                                  Registration & Payment</h1>
 
                                 <div class="mt-2">
                                     <span class="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
@@ -28,59 +28,13 @@
                                 </div>
                             </div>
 
-                            <div class="md:flex mb-10 md:items-center justify-center">
-                                <img class="w-1/2 shadow mx-auto object-cover rounded" src="{{ $conference->image }}" alt="">
-                            </div>
-                            
-
-                            <div class="md:flex md:items-start">
-                                <div class="mb-6 md:mt-0">
-                                    <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">
-                                        {{ $conference->theme }}</h1>
-                                </div>
-                            </div>
+                   
 
                             <div class="md:flex md:items-start">
 
                                 <div class="mb-4 md:mt-0">
-                                    <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">Important
-                                        Dates</h1>
-
-                                        <p class="mt-3 text-gray-500 dark:text-gray-300">
-                                        
-                                       <b>Registration & Abstract Submission Deadline : 10 Dec 2023</b><br>
-                                       <b>Full Paper Proceeding Submission Deadline : 10 Dec 2023</b><br>
-                                       <b>Conference Day (Presentation) : 13 December 2023</b>
-                                    </p>
-                                    <p class="mt-3 text-gray-500 dark:text-gray-300">
-
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="md:flex md:items-start">
-
-                                <div class="mb-4 md:mt-0">
-                                    <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">Location
-                                    </h1>
-
-                                    <p class=" text-gray-500 dark:text-gray-300">
-                                        {{ $conference->location }} - 
-                                    <b>Available Virtual Conference / Online</b>
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="md:flex md:items-start">
-
-                                <div class="mb-4 md:mt-0">
-                                    <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-                                        Description</h1>
-
-                                    <p class="mt-3 text-gray-500 dark:text-gray-300">
-                                        {{ $conference->description }}
-                                    </p>
-
+                        
+                                 
                                     <h3 class="mt-4 text-xl font-semibold text-gray-700 capitalize dark:text-white">
                                         Registration System</h3>
                                     <p class="mt-3 text-gray-700 dark:text-white">
@@ -128,6 +82,20 @@
                                             </div>
                                         </div>
                                         
+                                        <div>
+                                        <div class="entry-content text-gray-800 dark:text-gray-100 mt-3">
+                               
+<p>Registration fee is&nbsp;non-refundable&nbsp;and it includes charges for conference participation only. Publication Cost to selected journal is excluded, there will be additional cost for jurnal publication depend on each journal payment policy.</p>
+
+<p><strong>Bank Name</strong> : Bank Syari'ah Indonesia</p>
+
+<p><strong>Account Number</strong> : 7222113223</p>
+
+<p><strong>Account Name:</strong> Universitas Djuanda DKHLN</p>
+
+<p><strong>Swift Code:</strong> BSMDIDJA</p>
+                                </div>
+                                        </div>
                                     <a href="https://unida.ac.id/success"
                                         class="inline-flex items-center justify-center mt-20 w-full px-4 py-2 text-sm text-white duration-300 bg-gray-800 rounded-lg gap-x-3 hover:bg-gray-700 focus:ring focus:ring-gray-300 focus:ring-opacity-80">
                                         <span>Register Now</span>
@@ -142,12 +110,12 @@
                             </div>
 
 
-                            {{-- {{ $conference->description }} --}}
                         </div>
 
                     </div>
                 </div>
-            </div>  
+            </div>
+
        
         </div>
     </div>

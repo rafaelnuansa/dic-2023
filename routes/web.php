@@ -21,8 +21,6 @@ Route::get('conferences/{conference}', [App\Http\Controllers\Web\ConferenceContr
 Route::get('conferences/{conference}/payment', [App\Http\Controllers\Web\ConferenceController::class, 'payment'])->name('web.conferences.payment');
 Route::get('registration-payment', [App\Http\Controllers\Web\ConferenceController::class, 'payment'])->name('web.payment');
 
-
-
 Route::get('logout', [App\Http\Controllers\Auth\AuthenticatedSessionController::class, 'destroy'])->name('logout');
 
 Route::middleware('auth')->group(function () {
