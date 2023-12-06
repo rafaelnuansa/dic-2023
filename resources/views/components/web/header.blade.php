@@ -24,7 +24,7 @@
             <div class="flex flex-col md:flex-row md:mx-6">
                 <a class="my-2 text-gray-700 transition-colors font-bold duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0" href="{{ route('web.home') }}">Home</a>
                 <a class="my-2 text-gray-700 transition-colors font-bold duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0" href="{{ route('web.conferences') }}">Conferences</a>
-                <a class="my-2 text-gray-700 transition-colors font-bold duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0" target="_blank" href="https://docs.google.com/document/d/1t_5sOH5IPBtZKHWJLAs8DeWqCgK0IbtA/edit?usp=sharing&ouid=113028032201130162650&rtpof=true&sd=true">Offering MoU</a>
+                <a class="my-2 text-gray-700 transition-colors font-bold duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfM2d-Yq8BvEBVqMziCj9qzB7gqi4xaPkTBlhPf2vYWG1jbbQ/viewform">Offering MoU</a>
                 <a target="_blank" class="my-2 text-gray-700 transition-colors font-bold duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0" target="_blank" href="https://drive.google.com/file/d/1YTtd61n3MSgbtaWiooLgaqLb2tN3wIyG/view?usp=sharing">Download Flyer</a>
 
                 <a class="my-2 text-gray-700 transition-colors font-bold duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0" href="{{ route('web.payment') }}">Registration and Payment</a>
