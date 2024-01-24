@@ -24,7 +24,8 @@ class Hero extends Component
     public function render(): View|Closure|string
     {
        // Get the nearest upcoming conference
-    $conference = Conference::where('start_date', '>', Carbon::now())->orderBy('start_date', 'asc')->first();
+    // $conference = Conference::where('start_date', '>', Carbon::now())->orderBy('start_date', 'asc')->first();
+    $conference = Conference::where('shortname', 'dic2023')->first();
 
     return view('components.hero', [
         'conference' => $conference
